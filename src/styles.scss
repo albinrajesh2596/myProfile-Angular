@@ -1,0 +1,153 @@
+@media (min-width: 992px) {
+    .ms-lg-5 {
+        margin-left: 40% !important;
+    }
+}
+.mright {
+    margin-right: 5%;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: red !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: red !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.banner-section {
+    background-image: url('assets/images/img-1.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    font-family: sans-serif;
+}
+
+.banner-section .banner h1 {
+    font-weight: 900;
+    font-size: 5vw;
+    color: white;
+
+}
+
+.banner-section .banner p {
+    font-weight: 900;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.banner-section .banner {
+    margin-left: 6%;
+    padding-top: 5%;
+}
+
+.btn-text {
+    height: 7vh;
+    width: 18vw;
+    font-size: 1.5vw;
+}
+
+.course-img-ms {
+    margin-top: -8vh;
+}
+
+.row .first {
+    width: 200px;
+}
+
+.course-container .container .row {
+    margin-top: -15vh;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .course-container .container .row {
+        margin-top: 30px;
+    }
+}
+
+.img-border-red {
+    border: 5px solid white;
+}
+
+.img-border-right {
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+}
+
+.img-border-left {
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+}
+
+.single-item-first {
+    border-bottom: 5px solid blue;
+}
+
+.single-item-end {
+    border-bottom: 5px solid blue;
+}
+
+.single-item-center {
+    border-bottom: 5px solid orangered;
+}
+
+.single-item-first:hover {
+    border-bottom: 5px solid orangered;
+}
+
+.single-item-first:hover .la-gy {
+    color: orangered !important;
+
+}
+
+.single-item-end:hover {
+    border-bottom: 5px solid orangered;
+}
+
+.banner-vc :hover {
+    background-color: red;
+}
+
+.our-p-c {
+    font-size: 5vw;
+}
+
+.add-cart {
+    background-color: orangered;
+    border: 3px solid orangered;
+}
+
+.sale {
+    background-color: blue;
+    border: 3px solid blue;
+}
+
+.add-cart:hover {
+    background-color: blue;
+    border: 3px solid blue;
+}
+
+.card-names:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.sec-4-heading {
+    font-size: 3.8vw;
+    font-family: sans-serif;
+}
+
+.footer-full {
+    background-image: url('assets/images/endless-constellation.png');
+    color: white;
+    margin-top: 15vh;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
